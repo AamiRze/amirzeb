@@ -1,0 +1,265 @@
+ body,h1,h2,p{ margin: 0px;
+  }
+ .container{
+	width: 1140px;
+
+	
+	
+	margin: 0 auto;
+}
+nav{
+	display: flex;
+	align-items: center;
+	background-color: whitesmoke;
+}
+nav ul{
+	 list-style-type: none;
+	 display: flex;
+	 flex-grow: 2;
+	 justify-content: flex-end;
+}
+nav a{
+	text-decoration: none;
+	font-family: arial;
+	font-weight: bolder;
+	color: black;
+	transition: all ease 0.8s;
+
+
+}
+ul a:hover{
+	color: rgb(255, 196, 6);
+}
+.btn_a{
+	padding: 15px 20px;
+	background-color: rgb(255, 196, 6);
+	border-radius: 10px;
+	transition: all ease 0.7s;
+}
+nav li{
+	padding: 20px 15px;
+}
+
+.btn_a a{
+	color: white;
+	font-family: arial;
+	font-weight: medium;
+}
+.btn_a:hover{
+	background-color: black;
+}
+.slider{
+	width: 100%;
+	height: 500px;
+	background-color: gray;
+}
+.slidertext h1{
+	font-family: arial;
+	font-size:62px ;
+	font-weight:bolder ;
+	color: white;
+	width:66% ;
+	padding: 80px 30px;
+}
+.slidertext {
+	padding: 20px 20px;
+	position: relative;
+	z-index: 1;
+	top: 50px;
+	
+}
+.slidertext:before{
+	content: "";
+	background-color: rgb(255, 196, 6,0.7);
+	position: absolute;
+	width: 35%;
+	height: 90%;
+	z-index: -1;
+	border-radius: 8px;
+	
+}
+.bt{
+	padding: 15px 15px;
+	background-color: rgb(0, 0, 0);
+	color: white;
+	top: -30px;
+	bottom: 50px;
+	position: relative;
+	left: 30px;
+	border-radius: 15px;
+}
+.input{
+	padding: 35px 50px;
+	background-color: darkcyan;
+	margin-top: -40px;
+
+}
+.inp{
+	padding: 8px 20px;
+	width: 25%;
+	border: none;
+	border-radius: 8px;
+}
+.file{
+	width: 33.3%;
+	height: 200px;
+	
+	border: 1px solid black;
+	padding: 20px;
+	position: relative;
+
+
+}
+.row{
+	display: flex;
+}
+.teacher{
+	margin-top: 70px;
+}
+.file:before{
+	position: absolute;
+	content:"" ;
+		width: 100%;
+	height: 100%;
+	background: url(img/feature-bg.jpg);
+	top: 0px;
+	left: 0px;
+	z-index: -1;
+	opacity: 0;
+	transition: all ease 1s;
+
+}
+.file:hover:before{
+	opacity: 1;
+	filter: brightness(50%);
+}
+.course{
+	margin-top: 50px;
+	align-items: center;
+	text-align: centers;
+}
+.myfile{
+	width: 33.3%;
+	height: 200px;
+	border: 1px solid black;
+	padding: 20px;
+	position: relative;
+}
+.my{
+	
+}
+.row{
+	display: flex;
+}
+.myfile:before{
+	position: absolute;
+	content: "";
+	background: url(img/img1.jpg);
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+}
+.lower{
+	width: 100%;
+	height: 60px;
+	background-color: gray;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: white;
+	display: flex;
+}
+.upper{
+	width: 100%;
+	height: 500px;
+	background-color: rgb(0, 0, 0,0.8);
+}
+.owncourse{
+	width: 33.3%;
+	
+	border: 0.4px solid gray;
+	overflow: hidden;
+	transition: all ease 0.4s;
+
+}
+.owncourse img{
+	width: 100%;
+
+}
+.owncourse h1{
+	margin-top: 30px;
+	padding: 20px;
+}
+.owncourse p{
+	margin-top: 5px;
+	padding: 10px;
+}
+.habi{
+	width: 80px;
+	height: 80px;
+}
+.habib{
+	display: flex;
+}
+.habi img{
+	border-radius: 50%;
+}
+.owncourse{
+	margin: 40px 0px;
+	
+}
+.owncourse: hover img{
+	transform: scale(1.1);
+
+}
+.lowerfotter{
+	width: 100%;
+	height: 80px;
+	background-color: rgb(0, 0, 0,0.6);
+	align-items: center;
+	align-content: center;
+	display: flex;
+	color: white;
+	text-align: center;
+	justify-content: center;
+}
+.uppetterfor{
+	width: 100%;
+	height: 500px;
+	background-color: rgb(0, 0, 0,0.7);
+}
+.img img{
+	margin: 40px 40px;
+}
+.lines{
+	margin: 30px;
+	color: white;
+}
+.links{
+	margin: 30px;
+	color: white;
+}
+.non{
+	text-decoration: none;
+	padding: 10px;
+}
+.pics{
+	padding: 20px;
+	margin: 20px;
+}
+.pics{
+	color: white;
+	padding: 10px;
+	margin: 10px;
+
+}
+.course{
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+}
+.pics h2{
+	padding: 20px;
+	margin: 10px;
+}
